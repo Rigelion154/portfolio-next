@@ -28,19 +28,21 @@ const fadeIn = (direction: string, delay: number) => {
   };
 };
 
-type TypeAnimations = {
+const Animation = ({
+  direction,
+  delay,
+  children,
+}: {
   direction: string;
   delay: number;
   children: React.ReactNode;
-};
-
-const Animation = ({ direction, delay, children }: TypeAnimations) => {
+}) => {
   return (
     <motion.div
       variants={fadeIn(direction, delay)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: false, amount: 0.3 }}
     >
       {children}
     </motion.div>
