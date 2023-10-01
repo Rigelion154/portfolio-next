@@ -57,7 +57,7 @@ const StartPage = () => {
           </p>
         </Animation>
         <Animation direction={"up"} delay={0.6}>
-          <div className="flex gap-x-4 items-center">
+          <div className="flex flex-col sm:flex-row gap-x-4 items-center">
             <button className="btn btn-sm md:btn-me">Contact me</button>
             <a href="#" className="text-gradient">
               My CV
