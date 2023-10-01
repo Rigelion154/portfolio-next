@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --index: calc(1vw + 1vh);
+    --color-primary: rgb(89, 24, 223);
+}
+
 html {
     scroll-behavior: smooth;
 }

@@ -19,9 +19,13 @@ const Works = () => {
                   Alias aut consectetur consequuntur culpa, delectus dolor
                   doloribus eius enim.
                 </p>
-                <button className="btn btn-sm md:btn-me">
+                <Link
+                  href="https://github.com/Rigelion154/"
+                  className="btn btn-sm md:btn-me p-4"
+                  target={"_blank"}
+                >
                   View all projects
-                </button>
+                </Link>
               </div>
               <Link
                 href="https://rigelion154.github.io/Momentum/src/"
@@ -36,10 +40,10 @@ const Works = () => {
                     width={1200}
                     height={760}
                   />
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-20">
+                  <div className="absolute -bottom-full left-12 group-hover:bottom-14 lg:group-hover:bottom-24 transition-all duration-500 z-20">
                     <span className="text-gradient">UI/UX Design</span>
                   </div>
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-20">
+                  <div className="absolute -bottom-full left-12 group-hover:bottom-6 lg:group-hover:bottom-14 transition-all duration-700 z-20">
                     <span className="text-3xl">Momentum</span>
                   </div>
                 </div>
@@ -61,11 +65,11 @@ const Works = () => {
                     width={1200}
                     height={760}
                   />
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-20">
+                  <div className="absolute -bottom-full left-12 group-hover:bottom-14 lg:group-hover:bottom-24 transition-all duration-500 z-20">
                     <span className="text-gradient">CSS game</span>
                   </div>
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-20">
-                    <span className="text-3xl">CSS Selectors</span>
+                  <div className="absolute -bottom-full left-12 group-hover:bottom-6 lg:group-hover:bottom-14 transition-all duration-700 z-20">
+                    <span className="text-2xl lg:text-3xl">CSS Selectors</span>
                   </div>
                 </div>
               </Link>
@@ -82,10 +86,10 @@ const Works = () => {
                     width={1200}
                     height={760}
                   />
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-20">
+                  <div className="absolute -bottom-full left-12 group-hover:bottom-14 lg:group-hover:bottom-24 transition-all duration-500 z-20">
                     <span className="text-gradient">Landing page</span>
                   </div>
-                  <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-20">
+                  <div className="absolute -bottom-full left-12 group-hover:bottom-6 lg:group-hover:bottom-14 transition-all duration-700 z-20">
                     <span className="text-3xl">Shelter</span>
                   </div>
                 </div>

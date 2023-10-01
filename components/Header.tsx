@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "@/components/NavBar";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -13,7 +14,12 @@ const Header = () => {
               Portfolio
             </span>
           </a>
-          <button className="btn btn-sm md:btn-me">Work with me</button>
+          <Link
+            href="#contacts"
+            className="btn btn-sm md:btn-me flex items-center"
+          >
+            Work with me
+          </Link>
         </div>
       </div>
     </header>

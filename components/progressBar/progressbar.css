@@ -1,0 +1,35 @@
+.progressbar {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 10px;
+    background-color: #494b52;
+    box-shadow: 0 0 20px #111;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .progressbar {
+        width: 230px;
+        height: 40px;
+    }
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+}
+
+.progress__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
